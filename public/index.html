@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL SHORTENER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src = "static/js/script.js" defer></script>
+    <style>
+        body {
+            text-align: center;
+            background-color: black;
+            color : white;
+        }
+        
+        div{
+            margin : 20px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "font-family: monospace; margin-top: 10px;">URL SHORTENER</h1>
+    <div>
+        <textarea rows = "5" , cols="50" placeholder="Long url" id = "long-url"></textarea>
+    </div>
+    <button class = "btn btn-primary" id = "long-url">Shorten</button>
+    <div>
+        <textarea rows = "5" , cols="50" placeholder="Short url" id = "long-url"></textarea>
+    </div>
+    <button class = "btn btn-primary" id = "copy">Copy Short Url</button>
+</body>
+</html>
