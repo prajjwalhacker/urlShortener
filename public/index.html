@@ -10,24 +10,23 @@
     <style>
         body {
             text-align: center;
-            background-color: black;
-            color : white;
-        }
-        
-        div{
-            margin : 20px 20px;
         }
     </style>
 </head>
 <body>
-    <h1 style = "font-family: monospace; margin-top: 10px;">URL SHORTENER</h1>
-    <div>
-        <textarea rows = "5" , cols="50" placeholder="Long url" id = "long-url"></textarea>
+    <div style = "height: 520px; background-color: black; color : white;">
+        <h1 style = "font-family: monospace; margin-top: 10px;">URL SHORTENER</h1>
+        <div>
+            <textarea rows = "5" , cols="50" placeholder="Long url" id = "long-url"></textarea>
+        </div>
+        <button class = "btn btn-primary" id = "btn">Shorten</button>
+        <div>
+            <textarea rows = "5" , cols="50" placeholder="Short url" id = "short-url"></textarea>
+        </div>
+        <button class = "btn btn-primary" id = "cpy">Copy Short Url</button>
     </div>
-    <button class = "btn btn-primary" id = "long-url">Shorten</button>
-    <div>
-        <textarea rows = "5" , cols="50" placeholder="Short url" id = "long-url"></textarea>
-    </div>
-    <button class = "btn btn-primary" id = "copy">Copy Short Url</button>
+    <footer style = "text-align: center; background-color: black; color : white; height : 100px">
+          <h3>Made by Prajjwal Soni</h3>
+    </footer>
 </body>
 </html>
